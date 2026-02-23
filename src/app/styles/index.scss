@@ -1,0 +1,14 @@
+@use './variables/global';
+@use './reset';
+
+.app {
+    min-height: 100vh;
+}
+
+.main-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--secondary-color);
+}
