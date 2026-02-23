@@ -5,7 +5,7 @@
     "main": "index.js",
     "homepage": "https://nikitang.github.io/test-app",
     "scripts": {
-        "start": "webpack serve --env port=3000",
+        "start": "webpack serve --env port=3002",
         "build": "webpack --mode production",
         "deploy": "npm run build && gh-pages -d dist"
     },
